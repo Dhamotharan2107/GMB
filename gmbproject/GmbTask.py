@@ -40,7 +40,7 @@ def scrape_gmb_details(url, worksheet):
         print(f"Failed to fetch the page for {url}. Status code: {response.status_code}")
 
 # Example usage
-url = 'https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TCuOj09PLsw2YLRSNagwTjQ1Mk1LTDEzT7RMNTIytjKoSLNMSTSxtDAzMUyyNE40t_ASKMgvyagsVkjOKMrPTS1ILQEAAPkWHg&q=pothys+chromepet&rlz=1C5CHFA_enIN1043IN1043&oq=pothys+chr&gs_lcrp=EgZjaHJvbWUqEwgCEC4YrwEYxwEYsQMYgAQYjgUyBggAEEUYOTIHCAEQABiABDITCAIQLhivARjHARixAxiABBiOBTIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIGCAYQRRg8MgYIBxBFGDzSAQg5MjMxajFqOagCALACAA&sourceid=chrome&ie=UTF-8'
+url = input('Paste url here :')
 
 # Set up Google Sheets API credentials
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
